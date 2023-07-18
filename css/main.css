@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* nav bar starts here*/
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    background-color: #ffff;
+    padding: 0px 30px 0px 30px;
+}
+.row_one img{
+    margin-top: 10px;
+    height: 25px;
+}
+.row_one_items ul{
+    display: flex;
+    padding: 16px 20px 20px 20px;
+}
+.row_one_items{
+    display: flex;
+}
+.row_one ul{
+    list-style: none;
+}
+.tag_one{
+    padding-right: 30px;
+}
+.row_two ul{
+    display: flex;
+    list-style: none;
+    padding: 16px 20px 20px 20px;
+}
+.row_two img{
+    height: 20px;
+}
+.icon{
+    padding-left: 20px;
+}
+.account{
+    padding-left: 20px;
+    height: 40px;
+}
+
+
+/* nav bar ends here*/
+
+
+/* banner start hear  */
+.banner{
+    background-image: url(../Img/banner_two.webp);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container_one{
+    padding-top: 20px;
+}
+.box{
+    margin: 30px;
+    width: 350px;
+    height: 300px;
+    padding: 50px 50px 20px 50px;
+    background-color: #ffff;
+    box-shadow: 0px 2px 2px gray;
+}
+.box h2{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.box p{
+    word-spacing: 7px;
+    font-size: 17px;
+}
+.btn{
+    padding-top: 30px;
+}
+.btn button{
+    background-color: #0056a5;
+    padding: 15px 30px 15px 30px;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* banner ends here */
+
+/* image flex begins */
+
+.image_flex{
+    display: flex;
+    height: 350px;
+    padding: 20px 30px 100px 30px;
+}
+.image_flex1{
+    width: 300px;
+    padding-right: 30px;
+}
+.image_flex_h3{
+    padding-top: 30px;
+}
+.image_flex_p{
+    padding-top: 30px;
+
+}
+.btnn{
+    padding: 30px 0px 0px 0px;
+}
+.btnn button{
+    background-color: transparent;
+    color: blue;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    border: transparent;   
+}
+
+/* image flex ends here */
+
+/* banner two begins */
+
+.banner_two{
+    background-image: url(../img/banner3.webp);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 00px 30px 00px; 
+    background-position: center;   
+}
+.banner_two h2{
+    padding-top: 30px;
+}
+.banner_two p{
+    padding-top: 30px;
+}
+.btn_banner_two{
+    padding-top: 30px;
+    
+    
+}
+.banner_two_1{
+    padding-top: 150px;
+    width: 300px;
+    padding-left: 200px;
+    
+}
+.banner_two button{
+    height: 45px;
+    width: 150px;
+    background-color: rgb(13, 13, 243);
+    color: white;
+    border-radius: 3px;
+    border: transparent;
+}
+.h3{
+    padding-bottom: 0px;
+    padding-top: 130px;
+    padding-left: 30px;
+
+}
+.social_media{
+    display: flex;
+}
+.social_media p{
+    padding: 50px 50px 100px 30px;
+}
+.social_media img{
+    height: 35px;
+    padding-top: 40px;
+}
+.footer{
+    display: flex;
+    padding-left: 30px;
+    width: ;
+    height: 500px;
+    background-color: rgb(243, 243, 241);
+    justify-content: space-around;
+    
+}
+.list_footer{
+    list-style: none;
+    
+}
+.list_footer li{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer_about_1{
+    padding-top: 50px;
+    
+}
+.footer_about{
+    padding: 0px 70px 0px 30px;
+    width: 300px;
+}
+.last_line{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 241);
+    font-size: small ;
+}
+.last li{
+    list-style: none;
+}
+.last_line1{
+    justify-content: space-between;
+    display: flex;
+}
+.last_line2{
+    justify-content: space-between;
+    display: flex;
+}
+.li li{
+    padding: 20px 20px 20px 20px;
+}
